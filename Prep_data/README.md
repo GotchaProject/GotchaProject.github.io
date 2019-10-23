@@ -1,93 +1,13 @@
-# Gotcha Dataset 
+# Gotcha Preprocessed Data for Gait analysis
 
-This dataset is a collection of video of 62 subject in different mode and illumination. 
+Dataset scaled ([-1, 1]) into 50, 100 and 150 buckets using the following code:
 
+data_1_Y, where Y stands for:
 
-## About the videos
+0 —> Distance: [0,1] according to keypoints_pose_18.png
+1 —> Distances: [0,1], [1,8] and [1,11] according to keypoints_pose_18.png
+2 —> Distances: [0,1], [1,2] and [1,5] according to keypoints_pose_18.png
+3 —> Distances: [0,1], [1,2], [1,5], [1,8] and [1, 11] according to keypoints_pose_18.png
+4 —> Distances: [0,1], [0,14], [0,15], [1, 2], [1, 5], [1,8], [2,3], [3,4], [5,6], [6,7] and [1,11] according to keypoints_pose_18.png
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
-### Illuminations
-
-These videos have been acquired with three different illuminations: indoor with the artificial lights on, indoor with the lights off and with the camera flash, and outdoor.
-
-
-### Cooperative/NON-Cooperative
-
-They were also acquired in two different ways: cooperatives and non-cooperatives.
-
-By "cooperatives" we mean "non-adversarial behavior": that is, when the subject is taken up by the camera, he does not oppose any resistance, he does not hide his face and does not try to look away from the lens. In cooperative mode the subject collaborates in video acquisition.
-
-By "non-cooperatives" we mean "adversarial behavior": that is a hostile behavior on the part of the subject that more or less accentuated tries to oppose the video acquisition by trying to hide the face or trying to look away from the camera lens . In the non-cooperative mode the subject does not cooperate in video acquisition.
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+for further information contact us.
